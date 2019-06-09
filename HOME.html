@@ -1,0 +1,156 @@
+
+<html>
+	
+	<head>
+		<title>shop</title>
+		
+		<link href="csshome.css" rel="stylesheet" type="text/css"/>
+		
+		<script type="text/javascript">
+		</script>
+
+	</head>
+		
+		<body>
+
+		<div id="wrapper">
+		
+<!-- --------------------------------header-------------------------------------- -->
+
+		<header style="background-image:images\p5.jpg">
+	
+	<style>
+	
+	#my{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:75px;
+	letter-spacing:2px;
+	text-shadow:5px 5px 5px blue;
+	}
+	</style>
+	<p>
+<img src="images\p2.jpg" style="float:left;">	
+	<font id="my"  face="Informal Roman">SMARTIZO</font>
+</p>	
+	<img src="images\p3.png" height="100" width="300"/>
+<font size="6" face="Harrington" color="#ffffff"><b>....switch today and upgrade your phone....</b></font>
+
+</header>
+<!-- ------------------------------navigation------------------------------------>
+<style>
+h4 {margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: red;
+   
+    height: 100%;
+    overflow: auto;
+}
+
+h4 a {
+
+    color: #79e223;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+h4 a.active {
+    background-color: #e43eb8;
+    color:#e43eb8;
+}
+
+h4 a:hover:not(.active) {
+    background-color: #3ee4d6;
+    color: e43eb8;
+}
+</style>
+		
+	
+	<h4 id="nav" align="left"><font size="5">
+	<a href="HOME.html">HOME</a>
+	<a href="ABOUT US.html">ABOUT US</a>
+	<a href="BRANDS.html">BRANDS</a>
+	<a href="DEALS.html">DEALS</a>
+	<a href="SERVICES.html">SERVICES</a>
+	<a href="login.html">REGESTER</a>
+	<a href="ABOUT US.html">CONTACT</a>
+	</font>
+	</h4>
+	<!-- --------------------------------content-------------------------------------- -->
+	<div id="contenttext">
+<!-- --------------------------------video-------------------------------------- -->
+	
+	
+	
+	
+	<center>
+<embed src="video\V5.mp4" height="500" width="700" />
+</center>
+
+	
+	   <div class="slider">
+
+                 <div class="slideshow-container">
+  
+
+  <div class="mySlides fade">
+    <img src="images\q1.jpg" style="height:100%; width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images\q3.jpg" style="height:100%; width:100%">
+  </div>
+  
+   <div class="mySlides fade">
+    <img src="images\q2.jpg" style="height:100%; width:100%">
+  </div>
+  
+  
+     <div class="mySlides fade">
+    <img src="images\q5.jpg" style="height:100%; width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images\q7.jpg" style="height:100%; width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images\q8.jpg" style="height:100%; width:100%">
+  </div>
+   
+  
+</div>
+
+            </div>
+   <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+
+
+</div>
+	
+	
+	
+	
+	</div>
+	</div>
+	<footer></footer>
+	</div>
+	
+	
+	
+	</body>
+	
+</html>

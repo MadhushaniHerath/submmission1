@@ -1,0 +1,21 @@
+body{
+	background-image:"";
+}
+/*.........WRAPPER.........*/
+#wrapper{
+width:auto;
+
+}
+
+/*.........header.........*/
+header{
+width:auto;
+
+}
+/*.........navigation bar.........*/
+#nav{
+width:auto;
+height:40px;
+background-color:#18329c;
+margin:0;
+}

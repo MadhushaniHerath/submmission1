@@ -1,0 +1,133 @@
+
+<html>
+	<head>
+		<title>services</title>
+			<link href="cssservices.css" rel="stylesheet" type="text/css"/>
+			<link href="slidercss.css" rel="stylesheet" type="text/css"/>
+		<script type="text/css">
+		</script>
+		
+
+	</head>
+		<body>
+			<div id="wrapper">
+		<header>
+	<img src="pp9.jpg"/height="200"><img src="images\sv7.png"/>
+		</header>
+		
+	<!-- ------------------------------navigation------------------------------------>
+<style>
+p {margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: red;
+   
+    height: 100%;
+    overflow: auto;
+}
+
+p a {
+
+    color: #ed4eea;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+p a.active {
+    background-color: red;
+    color: yellow;
+}
+
+p a:hover:not(.active) {
+    background-color: green;
+    color: yellow;
+}
+</style>
+			
+		
+		<p id="nav" align="left"><font size="5" color="#ffffff">
+	<a href="HOME.html">HOME</a>
+	<a href="ABOUT US.html">ABOUT US</a>
+	<a href="BRANDS.html">BRANDS</a>
+	<a href="DEALS.html">DEALS</a>
+	<a href="SERVICES.html">SERVICES</a>
+	<a href="login.html">REGESTER</a>
+	<a href="ABOUT US.html">CONTACT</a>
+	</font>
+	</p>
+	
+	<!------------------------------slider------------------------------------------->
+	
+            <div class="slider">
+
+                 <div class="slideshow-container">
+  
+
+  <div class="mySlides fade">
+    <img src="images\u1.jpg" style="height:100%; width:100%%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images\th10.jpg" style="height:100%; width:50%">
+  </div>
+  
+   <div class="mySlides fade">
+    <img src="images\sv3.jpg" style="height:100%; width:75%">
+  </div>
+  
+     <div class="mySlides fade">
+    <img src="images\sv4.png" style="height:100%; width:75%">
+  </div>
+  
+     <div class="mySlides fade">
+    <img src="images\sv5.png" style="height:100%; width:75%">
+  </div>
+  
+     <div class="mySlides fade">
+    <img src="images\y3.jpg" style="height:100%; width:75%">
+  </div>
+   <div class="mySlides fade">
+    <img src="images\y5.png" style="height:100%; width:75%">
+  </div>
+  
+</div>
+
+            </div>
+   <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+
+
+</div>
+	
+	<h1 style="color:green;">FEATURES OF SMARTIZO SERVICES...</h1><br>
+	<ul>
+	<h2>
+	</li>Low prices</li>
+	<li>Quick service</li>
+	<li>Skilled Technecians</li>
+	<li>High quality spare parts</li>
+	<li>Wide range of rapair services</li>
+	<li>Years of experiences</li>
+	</ul></h2>
+	
+	<img src="images\sv6.png">
+	
+	<a href="login.html"><img src="images\ppp1.jpg"></a><br>
+	
+		
+	</body>
+</html>

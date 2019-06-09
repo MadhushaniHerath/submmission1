@@ -1,0 +1,22 @@
+body{
+	background-color:#c9f9b5;
+}
+/*.........WRAPPER.........*/
+#wrapper{
+width:auto;
+
+}
+
+/*.........header.........*/
+header{
+width:auto;
+background-image:url("bg1.jpg");
+
+}
+/*.........navigation bar.........*/
+#nav{
+width:auto;
+height:40px;
+background-color:#18329c;
+margin:0;
+}

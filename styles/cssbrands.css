@@ -1,0 +1,21 @@
+
+
+/*.........WRAPPER.........*/
+#wrapper{
+width:auto;
+
+}
+
+/*.........header.........*/
+header{
+width:auto;
+height:200px;
+background-image:url("fc.jpg");
+}
+/*.........navigation bar.........*/
+#nav{
+width:auto;
+height:40px;
+background-color:#18329c;
+margin:0;
+}
